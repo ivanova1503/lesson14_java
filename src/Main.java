@@ -16,5 +16,7 @@ public class Main {
 
         System.out.println("Максимальный элемент массива: " + max);
         System.out.println("Минимальный элемент массива: " + min);
+
+        System.out.println("Наибольший элемент по модулю: " + Math.max(Math.abs(min),Math.abs(max)));
     }
 }
